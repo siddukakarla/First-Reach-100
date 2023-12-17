@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/manu2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/instruction_for_the_game_GG"
+        android:textColorHint="#6C14A1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#9F1B55"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="387dp"
+        android:layout_height="511dp"
+        android:layout_margin="8dp"
+        android:layout_marginTop="80dp"
+        android:text="$ IF YOUR FAMILIAR WITH GAME CLICK ON NEXT BUTTON TO MOVE ON TO THE NEXT PAGE\n\n
+    1.START THE GAME BY CLICKING ON START BUTTON\n\n
+    2.START SELECTION OF NUMBER BETWEEN [1 – 9]\n\n
+    3.FROM 2ND CHANCE SELECT NUMBER BETWEEN [1-7]\n\n
+    4.WHO REACHES 100 FIRST IS THE WINNER"
+        android:textColor="#653085"
+        android:textColorHint="#C62828"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/nextut"
+        app:backgroundTint="#E91E63"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
